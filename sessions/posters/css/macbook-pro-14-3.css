@@ -1,0 +1,41 @@
+/* screen - macbook-pro-14-3 */
+
+.macbook-pro-14-3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  height: 2084px;
+  padding: 0 120px;
+  width: 1512px;
+}
+
+.macbook-pro-14-3 .overlap-group {
+  background-image: url(../img/image-1.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  height: 1664px;
+  margin-top: 210px;
+  position: relative;
+  width: 1272px;
+}
+
+.macbook-pro-14-3 .rectangle-1 {
+  background-color: var(--black);
+  border-radius: 14px;
+  height: 371px;
+  left: 860px;
+  position: absolute;
+  top: 1109px;
+  width: 401px;
+}
+
+.macbook-pro-14-3 .artist-jay-chou {
+  left: 860px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-align: center;
+  top: 1133px;
+  width: 401px;
+}

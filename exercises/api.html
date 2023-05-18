@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat Fact Generator</title>
+	<style>
+		body {
+		background-color: #000000;
+		text-align: center;
+		font-family: Arial, sans-serif;
+		
+		}
+
+		h1 {
+		color: #ffffff;
+		}
+
+		button {
+		margin: 20px;
+		padding: 10px 20px;
+		font-size: 18px;
+		cursor: pointer;
+		}
+
+	</style>
+</head>
+  <body>
+    <h1>Cat Fact Generator</h1>
+    <button id="generateBtn">Click me to Generate New Fact</button>
+    <p id="catFact"></p>
+
+	<script>
+		document.getElementById('generateBtn').addEventListener('click', getCatFact);
+	
+	function getCatFact() {
+	  fetch('https://cat-fact.herokuapp.com/facts/random')
+		.then(response => response.json())
+		.then(data => document.getElementById('catFact').textContent = data.text)
+		.catch(err => console.error(err));
+	}
+	
+	  </script>  </body>
+
+</html>

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modular Font</title>
+    <style>
+    body {
+        background-color: #e6efff;
+        text-align: center;
+        font-family: Arial, sans-serif;
+      }
+      
+      .letters-container {
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+      }
+      
+      .letter {
+        display: grid;
+        gap: 1px;
+      }
+      
+      .row {
+        display: flex;
+      }
+      
+      .cell {
+        width: 40px;
+        height: 40px;
+        border-radius: 20%;
+        background: rgb(255, 192, 192);
+        filter: drop-shadow(15px 15px rgb(255, 219, 153));
+        animation: letter 1s infinite alternate ease-in-out;
+      }
+
+      @keyframes letter {
+	0%{
+		opacity:0;
+	}
+	100%{
+		opacity:1;
+	}
+}
+
+
+      .empty {
+        width: 40px;
+        height: 40px;
+        background: transparent;
+      }
+      </style>
+  </head>
+
+
+  <body>
+    <div class="letters-container">
+    <div class="letter">
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+      </div>
+      <div class="row">
+        <div class="cell"></div>
+        <div class="cell"></div>
+        <div class="cell"></div>
+      </div>
+    </div>
+
+    <div class="letter">
+        <div class="row">
+          <div class="cell"></div>
+          <div class="empty"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="empty"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="empty"></div>
+          <div class="cell"></div>
+        </div>
+      </div>
+
+    <div class="letter">
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="empty"></div>
+            <div class="cell"></div>
+            <div class="empty"></div>
+        </div>
+        <div class="row">
+            <div class="empty"></div>
+            <div class="cell"></div>
+            <div class="empty"></div>
+        </div>
+        <div class="row">
+            <div class="empty"></div>
+          <div class="cell"></div>
+          <div class="empty"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+      </div>
+
+      <div class="letter">
+        <div class="row">
+          <div class="cell"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="empty"></div>
+            <div class="empty"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="empty"></div>
+          <div class="empty"></div>
+        </div>
+        <div class="row">
+          <div class="cell"></div>
+          <div class="cell"></div>
+          <div class="cell"></div>
+        </div>
+      </div>
+
+
+      <div class="letter">
+        <div class="row">
+          <div class="cell"></div>
+          <div class="empty"></div>
+          <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="empty"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+        </div>
+        <div class="row">
+            <div class="empty"></div>
+            <div class="cell"></div>
+          <div class="empty"></div>
+        </div>
+        <div class="row">
+            <div class="empty"></div>
+            <div class="cell"></div>
+            <div class="empty"></div>
+        </div>
+      </div>
+</div>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+:root { 
+  --black: #000000;
+  --white: #ffffff;
+ 
+  --font-size-l: 96px;
+  --font-size-m: 16px;
+ 
+  --font-family-david_libre: "David Libre", Helvetica;
+  --font-family-im_fell_double_pica_sc-regular: "IM FELL Double Pica SC-Regular", Helvetica;
+}
+.davidlibre-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-david_libre);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
